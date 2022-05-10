@@ -1,0 +1,9 @@
+n={'lalitha':['lalitha',22,'m'],'maggi':['teju',20,'m'],'teju':['teju',20,'m']}
+print(n)
+while True:
+    if len(n)==0:
+        break
+    name=input()
+    if name in n:
+        n.pop(name)
+    else:print('Not found')
